@@ -33,7 +33,7 @@ else:
     with open('models/night.json', 'r') as f:
         json_string = f.read()
     model = model_from_json(json_string)
-    model.load_weights('models/night-15-0.9714.h5')
+    model.load_weights('models/dark-light-50-0.9735.h5')
 
 # segmentation
 def seg(img, gray=False):
