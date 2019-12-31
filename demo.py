@@ -71,7 +71,7 @@ try:
     img_shape = presetSize[ratioIndex]
     img = cv2.resize(img, img_shape)
     img = seg(img, gray=args.gray)
-    cv2.imwrite('img', img)
+    cv2.imwrite('img.png', img)
     #cv2.waitKey(0)
 # video
 except:
